@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -14,8 +14,16 @@
         <input type="email" name="email" value="email@gmail.com" placeholder="email@gmail.com" required>
         <br>
         <h3>Você trabalha?</h3>
-        <input type="radio" name="grau" value="positivo">Sim
-        <input type="radio" name="grau" value="megativo">Não
+        <input type="radio" name="grau" value="positivo" required>Sim
+        <input type="radio" name="grau" value="megativo" required>Não
+        <br>
+        <h3>Selecione seu estado</h3>
+        <select name="dado" required>
+            <option value="1">Acre</option>
+            <option value="2">São Paulo</option>
+            <option value="3">Paraná</option>
+        </select>
+        <br>
         <h3>Digite seu telefone:</h3>
         <input type="number" name="tele" required placeholder="Digite seu número de telefone">
         <br>
@@ -24,12 +32,7 @@
         <br>
         
         <br>
-        <h3>Qual é o seu gênero?</h3>
-        <select name="dado" required>
-            <option value="1">Masculino</option>
-            <option value="2">Feminino</option>
-            <option value="3">Prefiro não dizer</option>
-        </select>
+        
         <br>
         <h3>Reclame aqui</h3>
         <textarea name="recla" placeholder="Faça sua reclamação" required></textarea>
