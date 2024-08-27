@@ -1,0 +1,44 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de 0,1</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/mrbzkdlb" method="post">
+        <h3>Digite seu Nome:</h3>
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <br>
+        <h3>Digite seu Email:</h3>
+        <input type="email" name="email" value="email@gmail.com" placeholder="email@gmail.com" required>
+        <br>
+        <h3>Você trabalha?</h3>
+        <input type="radio" name="grau" value="positivo">Sim
+        <input type="radio" name="grau" value="megativo">Não
+        <h3>Digite seu telefone:</h3>
+        <input type="number" name="tele" required placeholder="Digite seu número de telefone">
+        <br>
+        <h3>Digite sua idade:</h3>
+        <input type="number" name="idd" required placeholder="Digite sua idade"> 
+        <br>
+        
+        <br>
+        <h3>Qual é o seu gênero?</h3>
+        <select name="dado" required>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+            <option value="3">Prefiro não dizer</option>
+        </select>
+        <br>
+        <h3>Reclame aqui</h3>
+        <textarea name="recla" placeholder="Faça sua reclamação" required></textarea>
+        <br>
+        <h3>Você concorda com nossos termos?</h3>
+        <input type="checkbox" name="check" checked required value="sim">Sim
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Recomeçar</button>
+    </form>
+</body>
+</html>
